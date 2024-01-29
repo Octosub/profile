@@ -24,6 +24,10 @@ body > div {
   align-items: center;
 }
 
+body > a {
+  text-decoration: none;
+}
+
 h1 {
   text-shadow: #1A120B 4px 4px 4px;
 }
@@ -73,12 +77,16 @@ h3 {
 button {
   background: none;
   border: none;
-  color: inherit;
+  color: #D5CEA3;
   font: inherit;
   text-align: inherit;
   appearance: none;
   box-shadow:#1A120B 5px 5px 10px;
   padding: 15px;
+}
+
+button:hover {
+  text-decoration: underline;
 }
 
 .socials {
