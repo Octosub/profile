@@ -24,6 +24,10 @@ body > div {
   align-items: center;
 }
 
+.gif {
+  bottom: 20px;
+}
+
 body > a {
   text-decoration: none;
 }
